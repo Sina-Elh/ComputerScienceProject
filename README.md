@@ -1,6 +1,6 @@
 # Fake News Detection Project
 
-This project trains a machine learning model to classify news articles as fake or real. It was converted from the original `Phase2.ipynb` notebook into a PyCharm-friendly Python project.
+This project trains a machine learning model to classify news articles as fake or real.
 
 ## Project Structure
 
@@ -127,18 +127,3 @@ Example output:
 Real News (Confidence: 0.72)
 ```
 
-## GitHub Notes
-
-The `.gitignore` file excludes local datasets, generated model files, virtual environments, and PyCharm settings. This keeps the repository clean and avoids uploading large or generated files.
-
-Before uploading to GitHub, include:
-
-- `README.md`
-- `requirements.txt`
-- `.gitignore`
-- `src/` folder
-- `data/.gitkeep`
-- `models/.gitkeep`
-- The original notebook, if you want to keep it for reference
-
-Do not upload `Fake.csv`, `True.csv`, or `.pkl` model files unless your course or project instructions specifically require them.
